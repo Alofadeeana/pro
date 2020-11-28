@@ -1,0 +1,363 @@
+
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face 
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/DroidKufi-Regular.eot");
+    src: url("../font/DroidKufi-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../font/DroidKufi-Regular.woff2") format('woff2'),
+         url("../font/DroidKufi-Regular.woff") format('woff'),
+         url("../font/DroidKufi-Regular.ttf") format('truetype');
+}
+@font-face 
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../font/DroidKufi-Bold.eot");
+    src: url("../font/DroidKufi-Bold.eot?#iefix") format('embedded-opentype'),
+         url("../font/DroidKufi-Bold.woff2") format('woff2'),
+         url("../font/DroidKufi-Bold.woff") format('woff'),
+         url("../font/DroidKufi-Bold.ttf") format('truetype');
+}
+
+.clear:before,
+.clear:after 
+{
+    content:"";
+    display:table;
+}
+.clear:after 
+{
+    clear:both;
+}
+.clear 
+{
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+.clear:before,
+.clear:after {
+    content:"";
+    display:table;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+    float: right !important;
+
+}
+body{
+    font-family: "Droid Arabic Kufi";
+    font-weight: bold;
+    font-size: 15px;
+   // background: #ccc;
+}
+p{
+    margin: 0;
+}
+.center{
+    margin: 0 auto;
+    width: 1140px;
+}
+#head-warp{
+    padding: 20px 0 20px 0;
+}
+#header{
+    margin: 0 auto;
+	min-width: 1140px;
+        width:100%;
+	background-color:#242424;
+}
+#head-description{
+	padding: 10px 0;
+	color: #ffba00;
+	text-align: center;
+	background-color:#000000;
+}
+#logo{
+    float: right;
+}
+#logo h2{
+	display: inline-block;
+	color: #ffffff;
+}
+#logo h1 span{
+	color: #e72e02;
+	}
+#head-link {
+    
+    
+}
+#q{
+    float: left;
+    height: 80px;
+    width: 3px;
+    background-color: #666666;
+    margin: 5px;
+}
+#head-link ul{
+
+    padding: 0;
+    float: left;
+}
+#head-link li{
+ display: inline-block;  
+ margin: 5px;
+}
+#menu{
+	background-color: #333;
+	height: 100%;
+}
+#menu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#menu ul li{
+	background-color: #38df203d;;
+	margin: 5px;
+}
+#menu ul li a{
+	display: inline-block;
+	padding: 5px 20px;
+	font-weight: bold;
+	font-size: 16px;
+	color:#fff;
+	text-decoration: none;
+	
+	}
+        #menu ul li a img{
+            height: 30px;
+        }
+#menu ul li a span{
+	display: inline-block;
+}
+#intro{
+    margin: 0 auto;
+    width: 100%;
+	background-color: #b8baba;
+
+}
+#intro-img{
+    margin-top: 10px;
+	background: url("../images/intro.jpg") no-repeat center;
+}
+#intro-text{
+	width: 490px;
+	margin: 0px auto;
+	background-color: rgba(36,36,36,0.4);
+	text-align: center;
+}
+#intro-text h3{
+	display: inline-block;
+	margin: 30px auto 0 auto;
+	padding: 10px 46px;
+	color: #ffba00;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: rgba(36,36,36,0.7);
+}
+#intro-text p{
+	padding: 35px;
+	color:#fff;
+	font-size: 15px;
+
+	font-weight: bold;
+	
+}
+/*//////////////*/
+#nav-bar{
+	float: right;
+	margin-top: 10px;
+	background:url("../images/nav-bg.jpg") repeat-y top right;
+}
+#nav-bar h3{ 
+	padding: 10px 50px;
+	margin: 30px 10px 10px 10px;
+	text-align: center;
+	display: inline-block;
+	background-color: #fff;
+	font-size: 25px;
+	color: #33312d;
+}
+.nav-text h2{
+    font-family: "verdana";
+	display: inline;
+	margin: auto 15px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 27px;
+	color: #ffffff;
+}
+.nav-text p{
+	text-align: center;
+        margin: 10px -17;
+        width: 150px;
+        display: inline-block;
+        font-size: 17px;
+        color: #ffffff;
+}
+#nav-text p{
+	background-color: #ffe200;
+	color: #c53616;
+}
+#nav-text h2{
+	color: #ffe200;
+}
+/*-------------*/
+#content{
+	float: left;
+	width: 875px;
+}
+
+.contents{
+	float: left;
+	width: 875px;
+        min-height: 300px;
+}
+.icon{
+	float: right;
+	font-family: "Droid Arabic Kufi";
+	font-size: 36px;
+	width: 260px;
+	background-color: #363333;
+	margin: 10px 25px 40px 10px; 
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+}
+.icon img{
+	margin: 25px auto;
+}
+.text{
+	float: left;
+	width: 560px;
+	height: 225px;
+	background-color: #e1e1e1;
+	margin: 10px 10px 40px 10px; 
+	color: #343431;
+	text-align: right;
+	border-radius: 10px;
+	font-size: 16px;
+
+}
+.text p{
+	padding: 20px 25px;
+}
+
+#footer{
+   // padding: 10px;
+	//height: 400px;
+	background-color: #181717;
+}
+#footer-menu{
+	float: right;
+	padding-top: 45px;
+	width: 180px;
+
+}
+#footer-menu a{
+	text-decoration: none;
+}
+#footer-menu a p{
+	text-align: center;
+	padding-top:40PX;
+	color: #ffffff;
+}
+#Connect-with{
+	text-align: center;
+	float: right;
+	margin-right: 120px;
+	width: 540px;
+	color: #fff;
+}
+#Connect-with h3{
+	margin: 0;
+	display: inline-block;
+	width: 90px;
+        color: #ffd200;
+}
+#Connect-with input,
+#Connect-with textarea{
+	border: 0;
+	font-family: "Droid Arabic Kufi";
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #a19c9c;
+	color: #000;
+	width: 440px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+#Connect-with input[type='submit']
+{
+    margin-right: 100px;
+    float: right;
+    background-color: #912d16;
+    color: #fff;
+   width: 100px;
+   height: 50px; 
+}
+#Connect-with textarea{
+	height: 115px;
+}
+#footer-link{
+	text-align: left;
+	width:300px;
+	float: left;
+}
+.main-footer-link{
+    margin-top: 70px;
+}
+#footer-link a{
+	margin: 15px 10px;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+#footer-link img{
+	margin-left: 0;
+}
+#copy-right{
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.title-div {
+    margin: 30px 30px 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Droid Arabic Kufi';
+    text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.3), 0px -2px 1px rgba(0, 92, 110, 0.7);
+}
+.style4 {
+    font-size: 20px;
+color: #B00C0C;
+}
+.style3 {
+    font-size: 16px;
+	margin: 30px;
+color: #34495E;
+}
+.pages{
+    margin: 0 auto;
+    margin-top: 50px;
+max-width: 800px;
+}
+.pages-image{
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+.pages-title{
+    float: right;
+    height: 200px;
+    max-width: 500px;
+    display: inline-block;
+}

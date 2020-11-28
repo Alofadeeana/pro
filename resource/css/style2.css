@@ -1,0 +1,129 @@
+#page{
+    min-height: 360px;
+     overflow: auto;
+}
+#page h2{
+    font-family: verdana;
+        font-size: 16px;
+        color: #080808;
+}
+.login{
+    
+    width: 60%;
+float: right;
+margin-right: 50px;
+}
+.form{
+    border-radius: 10px; 
+    border: 1px solid #ddd; 
+    padding:15px 50px;
+    background-color: #ebebeb;
+}
+
+
+.login input[type="text"],
+.login input[type="password"]
+{
+    display: block;
+    border: 1px solid #ddd;
+    margin: 5px;
+    min-width: 300px;
+    font-size: 20px;
+    border-radius: 7px;
+    text-align:center;
+}
+.login input[type="text"]:hover,
+.login input[type="password"]:hover
+{
+    border: 2px solid #be7707;
+  box-shadow:   0px 0px 10px #888888;}
+.MainSettingForm{
+    width: 400px;
+    float: right;
+}
+.MainSettingForm label{
+    float: right;
+    width: 150px;
+}
+.MainSettingForm input,
+.MainSettingForm select{
+    width: 250px;
+    height: 30px;
+    padding: 3px 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+}
+.MainSettingForm textarea{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    margin-top: 10px;
+    height: 90px;
+}
+.MainSettingForm input[type="submit"]{
+    height: 40px;
+    text-align: center;
+    margin: 50px 150px;
+}
+.mainbg{
+    background-image: url("../bg.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+}
+.add h1{
+    font-family: cursive;
+    font-size: 24px;
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 15px;
+}
+.add input[type="submit"]{
+    margin: 20px 150px;
+}
+.SectionTable th{
+    text-align: right;
+    color: #756f6f;
+    background: #1ce68730 !important;
+}
+.SectionTable td img{
+    max-width: 22px; margin: 3px;
+}
+.btn-primary {
+color: #fff;
+background-color: #337ab7;
+border-color: #2e6da4;
+width: 100px;
+}
+.btn-lg, .btn {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.3333333;
+border-radius: 6px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.regiter span{
+    font-size: 20px;
+    float: right;
+    display: inline-block;
+    min-width: 120px;
+    text-align: left;
+    margin-left: 20px;
+}
+.std-main{
+    min-height: 500px;
+    background: url("../images/12.jpg") no-repeat right;
+}
+.image-form{
+    max-width: 110px !important;
+}
