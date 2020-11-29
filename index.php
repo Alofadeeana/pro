@@ -2,7 +2,7 @@
     @session_start();
 if(!isset($_SESSION['username']))
 {
-header('Location:loginControler1.php'); 
+header('Location:loginControler.php'); 
 die();
 }
     include './include/init.php';
@@ -13,7 +13,7 @@ die();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="utf-8">
-<title>نظام قياس جودة الاثمدة</title>
+<title>نظام لحجز سيارات الاجره</title>
 <link rel="stylesheet" type="text/css" href="./resource/css/normalize.css">
 <link rel="stylesheet" href="./resource/css/style.css" type="text/css">
 <link rel="stylesheet" href="./resource/css/bootstrap.css" type="text/css">
