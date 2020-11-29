@@ -2,7 +2,7 @@
     @session_start();
 if(!isset($_SESSION['username']))
 {
-header('Location:loginControler.php'); 
+header('Location:loginControler1.php'); 
 die();
 }
     include './include/init.php';
